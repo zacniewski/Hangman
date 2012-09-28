@@ -5,7 +5,7 @@ secret_word = random.choice(s)
 #print("Magic word is:",secret_word)
 turns=5
 print("WELCOME TO HANGMAN GAME")
-print("You've got", turns,"turns. Every mistake decreseases amount of turns.")
+print("You've got", turns,"turns. Every mistake decreases amount of turns.")
 print("HINT: Only names of animals are to guess.")
 chosen_letters=[]
 for j in range(len(secret_word)):
